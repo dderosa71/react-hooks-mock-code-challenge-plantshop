@@ -1,19 +1,21 @@
 import React, {useState} from "react";
 
-function NewPlantForm() {
+function NewPlantForm({setPlants}) {
 
   const [plantName, setPlantName] = useState("")
   const [imageURL, setImageURL] = useState("")
   const [plantPrice, setPlantPrice] = useState("")
 
+  const newPlant = {"name" : plantName, "image" : imageURL, "price": plantPrice}
 
   function newPlantSubmit(event){
     event.preventDefault()
     fetch('http://localhost:6001/plants',{
       method: "POST",
       headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({"name" : plantName, "image" : imageURL, "price": plantPrice})
+      body: JSON.stringify(newPlant)
     })
+    setPlants((plants)=>[...plants, newPlant])
   }
 
   return (

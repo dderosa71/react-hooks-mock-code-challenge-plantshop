@@ -4,13 +4,13 @@
       "id": 1,
       "name": "Aloe",
       "image": "./images/aloe.jpg",
-      "price": 15.99
+      "price": "34534"
     },
     {
       "id": 2,
       "name": "ZZ Plant",
       "image": "./images/zz-plant.jpg",
-      "price": 25.98
+      "price": "435345"
     },
     {
       "id": 3,
@@ -34,25 +34,49 @@
       "id": 6,
       "name": "Monstera Deliciosa",
       "image": "./images/monstera.jpg",
-      "price": 25.99
+      "price": "43534543"
     },
     {
       "id": 7,
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
-      "price": 55
+      "price": ""
     },
     {
-      "name": "wer",
-      "image": "rwe",
-      "price": "3",
-      "id": 8
-    },
-    {
-      "name": "wer",
-      "image": "rwe",
-      "price": "3",
+      "name": "aslkhfdsoi",
+      "image": "ldfkhjfdok",
+      "price": "098234",
       "id": 9
+    },
+    {
+      "name": "aslkhfdsoi",
+      "image": "ldfkhjfdok",
+      "price": "",
+      "id": 10
+    },
+    {
+      "name": "aslkhfdsoi",
+      "image": "ldfkhjfdok",
+      "price": "32342",
+      "id": 11
+    },
+    {
+      "name": "fds",
+      "image": "dsf",
+      "price": "43543",
+      "id": 14
+    },
+    {
+      "name": "fds",
+      "image": "dsf",
+      "price": "4353534",
+      "id": 15
+    },
+    {
+      "name": "fds",
+      "image": "dsf",
+      "price": "",
+      "id": 16
     }
   ]
 }
